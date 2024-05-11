@@ -52,7 +52,7 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of JS Chen',
     description: '',
     imageURL: '',
   },
@@ -74,9 +74,9 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://jschenkv.github.io/',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'jschen02@uw.edu',
   },
   resume: {
     fileUrl:
@@ -124,10 +124,10 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'University of Washington',
+      degree: 'BS',
+      from: '2022',
+      to: '2026',
     },
     {
       institution: 'Institution Name',
@@ -171,7 +171,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'cyberpunk',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
