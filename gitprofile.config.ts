@@ -49,7 +49,7 @@ const CONFIG = {
           link: 'https://drive.google.com/file/d/1scULpsUAQRRrUAAnBETNfKOOY6pK6Xml/view?usp=sharing',
         },
         {
-          title: 'Phase Plane Analysis and Stability in Body Fat Dynamics',
+          title: 'Neural Network Methods For Signals In Engineering And Physical Sciences',
           description:
             'MNIST Classificaion using convolutional neural network',
           imageUrl:
