@@ -41,12 +41,20 @@ const CONFIG = {
           link: 'https://observablehq.com/d/e08bf4e8f23c440e',
         },
         {
-          title: 'Project Name',
+          title: 'Phase Plane Analysis and Stability in Body Fat Dynamics',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Investigate the stability and Phase Plane properties of a mathematical model describing body fat dynamics.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://sigmanutrition.com/wp-content/uploads/2020/11/CICO-1024x1024.png',
+          link: 'https://drive.google.com/file/d/1scULpsUAQRRrUAAnBETNfKOOY6pK6Xml/view?usp=sharing',
+        },
+        {
+          title: 'Phase Plane Analysis and Stability in Body Fat Dynamics',
+          description:
+            'MNIST Classificaion using convolutional neural network',
+          imageUrl:
+            'https://onlinelibrary.wiley.com/cms/asset/8b44ef12-e4da-4c9e-85dd-fea4ea9e0fd5/wcm7549397-fig-0002-m.jpg',
+          link: 'https://github.com/JSChenKv/PHYS417-Labs.git',
         },
       ],
     },
