@@ -57,9 +57,9 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: '',
+    twitter: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -69,13 +69,13 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
     website: 'https://jschenkv.github.io/',
-    phone: '',
+    phone: '9135130189',
     email: 'jschen02@uw.edu',
   },
   resume: {
@@ -83,35 +83,15 @@ const CONFIG = {
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Java',
+    'Python',
     'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
+    'MATLAB',
     'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'UW Undergraduate Research',
     },
   ],
   certifications: [
@@ -124,16 +104,16 @@ const CONFIG = {
   ],
   educations: [
     {
+      institution: 'The Quarry Lane School, Dublin, CA ',
+      degree: 'High school',
+      from: '2017',
+      to: '2022',
+    },
+    {
       institution: 'University of Washington',
       degree: 'BS',
       from: '2022',
-      to: '2026',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      to: 'Present',
     },
   ],
   publications: [
