@@ -33,12 +33,12 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Cancer Care Navigator: A Global Resource for Treatment and Medication Information',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'An interactive article designed to assist cancer patients by providing comprehensive, up-to-date information on treatment options and costs.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://www.nfcr.org/wp-content/webp-express/webp-images/uploads/2024/06/Cancer-Info-Graphic-1.png.webp',
+          link: 'https://observablehq.com/d/e08bf4e8f23c440e',
         },
         {
           title: 'Project Name',
