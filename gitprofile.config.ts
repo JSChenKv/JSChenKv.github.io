@@ -51,9 +51,9 @@ const CONFIG = {
         {
           title: 'Neural Network Methods For Signals In Engineering And Physical Sciences',
           description:
-            'MNIST Classificaion using convolutional neural network',
+            'From simple MNIST Classificaion using convolutional neural network to complex transformer encoder model to classify Large Hadron Collider jet events using variable-length input sequences of particle features',
           imageUrl:
-            'https://onlinelibrary.wiley.com/cms/asset/8b44ef12-e4da-4c9e-85dd-fea4ea9e0fd5/wcm7549397-fig-0002-m.jpg',
+            'https://static.scientificamerican.com/sciam/cache/file/DD98722D-6734-4403-86E6AEF1EF47798C_source.jpg?w=1200',
           link: 'https://github.com/JSChenKv/PHYS417-Labs.git',
         },
       ],
@@ -99,10 +99,10 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'UW Undergraduate Research',
-      position: '',
-      from: '',
-      to: '',
+      company: 'CIMER',
+      position: 'Software Engineer Intern',
+      from: '07/2025',
+      to: '09/2025',
       companyLink: '',
     },
   ],
@@ -130,12 +130,12 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: '',
-      conferenceName: '',
-      journalName: '',
-      authors: '',
-      link: '',
-      description: '',
+      title: 'Retrosynthesis of undescribed sesquiterpene lactone',
+      conferenceName: 'The 3rd International Conference on Applied Chemistry and Industrial Catalysis',
+      journalName: 'CRC Press',
+      authors: 'Lujie Pu, Jingsong Chen, Weichen Tang, Jiawei Li, Haozhe Xu',
+      link: 'https://www.taylorfrancis.com/chapters/edit/10.1201/9781003308553-39/retrosynthesis-undescribed-sesquiterpene-lactone-lujie-pu-jingsong-chen-weichen-tang-jiawei-li-haozhe-xu',
+      description: 'Designed and analyzed three feasible retrosynthetic routes for a bioactive sesquiterpene lactone extracted from Centipeda minima, focusing on practicality, starting-material availability, and intermediate stability',
     },
     {
       title: '',
