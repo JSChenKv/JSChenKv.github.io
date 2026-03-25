@@ -91,11 +91,13 @@ const CONFIG = {
       '/CV_Jingsong_Chen.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
+    'RAG',
     'Java',
     'Python',
     'JavaScript',
     'MATLAB',
     'MySQL',
+    'Deep Learning',
   ],
   experiences: [
     {
