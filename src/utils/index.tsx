@@ -126,6 +126,18 @@ export const getSanitizedConfig = (
         displayAvatarRing: config?.themeConfig?.displayAvatarRing ?? true,
         themes: config?.themeConfig?.themes || DEFAULT_THEMES,
       },
+      music: {
+        enabled: config?.music?.enabled ?? false,
+        title: config?.music?.title || 'Tavern Radio',
+        initialVolume:
+          typeof config?.music?.initialVolume === 'number' &&
+          Number.isFinite(config.music.initialVolume)
+            ? Math.min(1, Math.max(0, config.music.initialVolume))
+            : 0.2,
+        tracks:
+          config?.music?.tracks?.filter((track) => track.title && track.src) ||
+          [],
+      },
       footer: config?.footer,
       enablePWA: config?.enablePWA ?? true,
     };

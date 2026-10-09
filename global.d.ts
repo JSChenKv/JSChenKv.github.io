@@ -396,6 +396,27 @@ interface Config {
    * Enable PWA
    */
   enablePWA?: boolean;
+
+  /** Optional background music player. */
+  music?: Music;
+}
+
+interface MusicTrack {
+  title: string;
+  artist?: string;
+  mood?: string;
+  src: string;
+  sourceUrl?: string;
+  license?: string;
+  licenseUrl?: string;
+}
+
+interface Music {
+  enabled?: boolean;
+  title?: string;
+  /** Initial volume from 0 (silent) to 1 (full volume). */
+  initialVolume?: number;
+  tracks?: MusicTrack[];
 }
 
 declare const CONFIG: Config;

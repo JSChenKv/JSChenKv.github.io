@@ -13,6 +13,7 @@ import { getInitialTheme, getSanitizedConfig, setupHotjar } from '../utils';
 import { SanitizedConfig } from '../interfaces/sanitized-config';
 import ErrorPage from './error-page';
 import ThemeChanger from './theme-changer';
+import MusicPlayer from './music-player';
 import { BG_COLOR } from '../constants';
 import AvatarCard from './avatar-card';
 import { Profile } from '../interfaces/profile';
@@ -225,6 +226,10 @@ const GitProfileContent = ({
                       themeConfig={sanitizedConfig.themeConfig}
                     />
                   )}
+                  {sanitizedConfig.music.enabled &&
+                    sanitizedConfig.music.tracks.length > 0 && (
+                      <MusicPlayer music={sanitizedConfig.music} />
+                    )}
                   <AvatarCard
                     profile={profile}
                     loading={loading}

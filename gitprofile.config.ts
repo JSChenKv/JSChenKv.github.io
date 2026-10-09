@@ -250,6 +250,42 @@ const CONFIG = {
     ],
   },
 
+  // Optional background music. Playback starts only after a visitor clicks play.
+  music: {
+    enabled: true,
+    title: 'Tavern Radio',
+    initialVolume: 0.2,
+    tracks: [
+      {
+        title: "The Bard's Tale",
+        artist: 'RandomMind',
+        mood: 'Lute, flute, and a seat by the hearth.',
+        src: 'music/the-bards-tale.mp3',
+        sourceUrl: 'https://opengameart.org/content/medieval-the-bards-tale',
+        license: 'CC0',
+        licenseUrl: 'https://creativecommons.org/publicdomain/zero/1.0/',
+      },
+      {
+        title: 'Crowded Pub',
+        artist: 'Bobjt',
+        mood: 'A lively little inn, on repeat.',
+        src: 'music/crowded-pub.mp3',
+        sourceUrl: 'https://opengameart.org/content/crowded-pub',
+        license: 'CC0',
+        licenseUrl: 'https://creativecommons.org/publicdomain/zero/1.0/',
+      },
+      {
+        title: 'Harvest Season',
+        artist: 'RandomMind',
+        mood: 'A cheerful folk tune after a long quest.',
+        src: 'music/harvest-season.mp3',
+        sourceUrl: 'https://opengameart.org/content/medieval-harvest-season',
+        license: 'CC0',
+        licenseUrl: 'https://creativecommons.org/publicdomain/zero/1.0/',
+      },
+    ],
+  },
+
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
       class="text-primary" href="https://github.com/arifszn/gitprofile"
