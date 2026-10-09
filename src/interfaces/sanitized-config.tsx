@@ -124,6 +124,23 @@ export interface SanitizedThemeConfig {
   themes: Array<string>;
 }
 
+export interface SanitizedMusicTrack {
+  title: string;
+  artist?: string;
+  mood?: string;
+  src: string;
+  sourceUrl?: string;
+  license?: string;
+  licenseUrl?: string;
+}
+
+export interface SanitizedMusic {
+  enabled: boolean;
+  title: string;
+  initialVolume: number;
+  tracks: SanitizedMusicTrack[];
+}
+
 export interface SanitizedConfig {
   github: SanitizedGithub;
   projects: SanitizedProjects;
@@ -139,6 +156,7 @@ export interface SanitizedConfig {
   hotjar: SanitizedHotjar;
   blog: SanitizedBlog;
   themeConfig: SanitizedThemeConfig;
+  music: SanitizedMusic;
   footer?: string;
   enablePWA: boolean;
 }
