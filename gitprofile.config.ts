@@ -33,7 +33,8 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Cancer Care Navigator: A Global Resource for Treatment and Medication Information',
+          title:
+            'Cancer Care Navigator: A Global Resource for Treatment and Medication Information',
           description:
             'An interactive article designed to assist cancer patients by providing comprehensive, up-to-date information on treatment options and costs.',
           imageUrl:
@@ -49,7 +50,8 @@ const CONFIG = {
           link: 'https://drive.google.com/file/d/1scULpsUAQRRrUAAnBETNfKOOY6pK6Xml/view?usp=sharing',
         },
         {
-          title: 'Neural Network Methods For Signals In Engineering And Physical Sciences',
+          title:
+            'Neural Network Methods For Signals In Engineering And Physical Sciences',
           description:
             'From simple MNIST Classificaion using convolutional neural network to complex transformer encoder model to classify Large Hadron Collider jet events using variable-length input sequences of particle features',
           imageUrl:
@@ -66,7 +68,7 @@ const CONFIG = {
   },
   social: {
     linkedin: '',
-    twitter: '',
+    x: '',
     mastodon: '',
     researchGate: '',
     facebook: '',
@@ -80,15 +82,14 @@ const CONFIG = {
     medium: '',
     dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
+    discord: '',
     telegram: '',
     website: 'https://jschenkv.github.io/',
     phone: '9135130189',
     email: 'jschen02@uw.edu',
   },
   resume: {
-    fileUrl:
-      '/CV_Jingsong_Chen.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '/CV_Jingsong_Chen.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'RAG',
@@ -133,11 +134,13 @@ const CONFIG = {
   publications: [
     {
       title: 'Retrosynthesis of undescribed sesquiterpene lactone',
-      conferenceName: 'The 3rd International Conference on Applied Chemistry and Industrial Catalysis',
+      conferenceName:
+        'The 3rd International Conference on Applied Chemistry and Industrial Catalysis',
       journalName: 'CRC Press',
       authors: 'Lujie Pu, Jingsong Chen, Weichen Tang, Jiawei Li, Haozhe Xu',
       link: 'https://www.taylorfrancis.com/chapters/edit/10.1201/9781003308553-39/retrosynthesis-undescribed-sesquiterpene-lactone-lujie-pu-jingsong-chen-weichen-tang-jiawei-li-haozhe-xu',
-      description: 'Designed and analyzed three feasible retrosynthetic routes for a bioactive sesquiterpene lactone extracted from Centipeda minima, focusing on practicality, starting-material availability, and intermediate stability',
+      description:
+        'Designed and analyzed three feasible retrosynthetic routes for a bioactive sesquiterpene lactone extracted from Centipeda minima, focusing on practicality, starting-material availability, and intermediate stability',
     },
     {
       title: '',
@@ -158,10 +161,7 @@ const CONFIG = {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
-  hotjar: {
-    id: '',
-    snippetVersion: 6,
-  },
+  hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
     defaultTheme: 'light',
 
@@ -210,19 +210,11 @@ const CONFIG = {
       'dim',
       'nord',
       'sunset',
+      'caramellatte',
+      'abyss',
+      'silk',
       'procyon',
     ],
-
-    // Custom theme, applied to `procyon` theme
-    customTheme: {
-      primary: '#fc055b',
-      secondary: '#219aaf',
-      accent: '#e8d03a',
-      neutral: '#2A2730',
-      'base-100': '#E3E3ED',
-      '--rounded-box': '3rem',
-      '--rounded-btn': '3rem',
-    },
   },
 
   // Optional Footer. Supports plain text or HTML.
