@@ -29,44 +29,66 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Selected Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Cancer Care Navigator: A Global Resource for Treatment and Medication Information',
+          title: 'Facade Crack Synthesis and Generative Rendering',
           description:
-            'An interactive article designed to assist cancer patients by providing comprehensive, up-to-date information on treatment options and costs.',
-          imageUrl:
-            'https://www.nfcr.org/wp-content/webp-express/webp-images/uploads/2024/06/Cancer-Info-Graphic-1.png.webp',
-          link: 'https://observablehq.com/d/e08bf4e8f23c440e',
+            'Nanjing University | July - September 2026. Built a two-stage synthetic-data pipeline for UAV-based facade crack analysis using facade-conditioned Conditional Flow Matching and a fine-tuned FLUX.1-Fill-dev LoRA. Produced approximately 100,000 aligned training samples, grouped splits by source image to prevent data leakage, and implemented topology-aware donor retrieval and compositing that preserves pixels outside the target mask.',
+          imageUrl: '',
+          link: '/CV_Jingsong_Chen.pdf#page=1',
         },
         {
-          title: 'Phase Plane Analysis and Stability in Body Fat Dynamics',
+          title: 'Multi-Tenant Retrieval-Augmented Generation',
           description:
-            'Investigate the stability and Phase Plane properties of a mathematical model describing body fat dynamics.',
+            'CIMER. Co | July - September 2025. Built a RAG system with strict tenant isolation in Weaviate, multi-format document ingestion, semantic chunking, vector clustering, and source citations. Delivered dynamic switching between local Ollama, Gemini, and OpenAI providers, with frontend settings synchronized to the backend and Weaviate generative configuration.',
+          imageUrl: '',
+          link: '/CV_Jingsong_Chen.pdf#page=1',
+        },
+        {
+          title: 'Transformer-Based Jet Classification',
+          description:
+            'May - June 2025. Built a PyTorch Transformer encoder for variable-length particle-feature sequences, achieving approximately 77% validation accuracy on Large Hadron Collider jet classification. Preprocessed 50,000 ATLAS simulation events with dynamic padding and trained a Random Forest classifier on pooled Transformer embeddings.',
+          imageUrl:
+            'https://static.scientificamerican.com/sciam/cache/file/DD98722D-6734-4403-86E6AEF1EF47798C_source.jpg?w=1200',
+          link: 'https://github.com/JSChenKv/PHYS417-Labs',
+        },
+        {
+          title: 'AutoML-Agent: LLM-Driven Dynamic Model Trainer',
+          description:
+            'May - June 2025. Developed a Python machine-learning agent using PyTorch and Hugging Face Transformers to automate dataset analysis and model selection. Integrated a local LLM to interpret natural-language requests and recommend architectures, then dynamically trained custom convolutional and fully connected networks on benchmark datasets.',
+          imageUrl: '',
+          link: '/CV_Jingsong_Chen.pdf#page=2',
+        },
+        {
+          title: 'Medical Imaging PCA and Body Fat Dynamics',
+          description:
+            'January - March 2025. Applied PCA to 64-channel silicon-photomultiplier detector data, reducing dimensionality to 9 while preserving signal fidelity. Modeled body-fat regulation with nonlinear ODEs and analyzed stability using Jacobians and phase portraits, exploring spiral and node behavior across metabolic parameters.',
           imageUrl:
             'https://sigmanutrition.com/wp-content/uploads/2020/11/CICO-1024x1024.png',
           link: 'https://drive.google.com/file/d/1scULpsUAQRRrUAAnBETNfKOOY6pK6Xml/view?usp=sharing',
         },
         {
-          title: 'Neural Network Methods For Signals In Engineering And Physical Sciences',
+          title: 'Cancer Care Interactive Information System',
           description:
-            'From simple MNIST Classificaion using convolutional neural network to complex transformer encoder model to classify Large Hadron Collider jet events using variable-length input sequences of particle features',
+            'January - March 2025. Developed an interactive visualization platform for exploring cancer treatments, survival rates, and regional healthcare disparities. Used SQL to clean, merge, and enrich multi-country incidence, mortality, and economic-cost datasets, enabling dynamic filtering and comparisons of healthcare access and disease burden.',
           imageUrl:
-            'https://static.scientificamerican.com/sciam/cache/file/DD98722D-6734-4403-86E6AEF1EF47798C_source.jpg?w=1200',
-          link: 'https://github.com/JSChenKv/PHYS417-Labs.git',
+            'https://www.nfcr.org/wp-content/webp-express/webp-images/uploads/2024/06/Cancer-Info-Graphic-1.png.webp',
+          link: 'https://observablehq.com/d/e08bf4e8f23c440e',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of JS Chen',
-    description: '',
+    title: 'Jingsong Chen | Machine Learning and Generative AI',
+    description:
+      'Jingsong Chen, a Computer Science and Engineering MS student at UC San Diego and University of Washington ACMS graduate. Projects in generative AI, retrieval-augmented generation, machine learning, and data visualization.',
     imageURL: '',
   },
   social: {
     linkedin: '',
-    twitter: '',
+    x: '',
     mastodon: '',
     researchGate: '',
     facebook: '',
@@ -80,72 +102,86 @@ const CONFIG = {
     medium: '',
     dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
+    discord: '',
     telegram: '',
     website: 'https://jschenkv.github.io/',
     phone: '9135130189',
-    email: 'jschen02@uw.edu',
+    email: 'jic253@ucsd.edu',
   },
   resume: {
-    fileUrl:
-      '/CV_Jingsong_Chen.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '/CV_Jingsong_Chen.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'RAG',
-    'Java',
     'Python',
-    'JavaScript',
-    'MATLAB',
-    'MySQL',
-    'Deep Learning',
+    'Java',
+    'C++',
+    'SQL',
+    'OCaml',
+    'Scheme',
+    'Ruby',
+    'PyTorch',
+    'scikit-learn',
+    'Transformers',
+    'CNNs',
+    'Random Forest',
+    'PCA',
+    'Clustering',
+    'Diffusers',
+    'FLUX',
+    'LoRA',
+    'RAG',
+    'Weaviate',
+    'Hugging Face Transformers',
+    'NumPy',
+    'FastAPI',
+    'Docker',
+    'Matplotlib',
+    'Jupyter Notebook',
+    'Observable Vega-Lite',
+    'Git',
   ],
   experiences: [
     {
-      company: 'CIMER',
-      position: 'Software Engineer Intern',
-      from: '07/2025',
-      to: '09/2025',
+      company: 'Nanjing University',
+      position: 'Data Engineer',
+      from: 'July 2026',
+      to: 'September 2026',
+      companyLink: '',
+    },
+    {
+      company: 'CIMER. Co',
+      position: 'Software Engineer',
+      from: 'July 2025',
+      to: 'September 2025',
       companyLink: '',
     },
   ],
-  certifications: [
-    {
-      name: '',
-      body: '',
-      year: '',
-      link: '',
-    },
-  ],
+  certifications: [],
   educations: [
     {
-      institution: 'The Quarry Lane School, Dublin, CA ',
-      degree: 'High school',
-      from: '2017',
-      to: '2022',
+      institution: 'University of California, San Diego',
+      degree: 'Master of Science in Computer Science and Engineering',
+      from: 'September 2026',
+      to: 'Present',
     },
     {
-      institution: 'University of Washington',
-      degree: 'BS',
-      from: '2022',
-      to: 'Present',
+      institution: 'University of Washington, Seattle',
+      degree:
+        'BS in Applied and Computational Math Sciences: Discrete Math and Algorithms (GPA: 3.92)',
+      from: 'September 2022',
+      to: 'March 2026',
     },
   ],
   publications: [
     {
       title: 'Retrosynthesis of undescribed sesquiterpene lactone',
-      conferenceName: 'The 3rd International Conference on Applied Chemistry and Industrial Catalysis',
+      conferenceName:
+        'The 3rd International Conference on Applied Chemistry and Industrial Catalysis',
       journalName: 'CRC Press',
       authors: 'Lujie Pu, Jingsong Chen, Weichen Tang, Jiawei Li, Haozhe Xu',
       link: 'https://www.taylorfrancis.com/chapters/edit/10.1201/9781003308553-39/retrosynthesis-undescribed-sesquiterpene-lactone-lujie-pu-jingsong-chen-weichen-tang-jiawei-li-haozhe-xu',
-      description: 'Designed and analyzed three feasible retrosynthetic routes for a bioactive sesquiterpene lactone extracted from Centipeda minima, focusing on practicality, starting-material availability, and intermediate stability',
-    },
-    {
-      title: '',
-      conferenceName: '',
-      journalName: '',
-      authors: '',
-      link: '',
-      description: '',
+      description:
+        'Designed and analyzed three feasible retrosynthetic routes for a bioactive sesquiterpene lactone extracted from Centipeda minima, focusing on practicality, starting-material availability, and intermediate stability',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
@@ -158,10 +194,7 @@ const CONFIG = {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
-  hotjar: {
-    id: '',
-    snippetVersion: 6,
-  },
+  hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
     defaultTheme: 'light',
 
@@ -210,19 +243,11 @@ const CONFIG = {
       'dim',
       'nord',
       'sunset',
+      'caramellatte',
+      'abyss',
+      'silk',
       'procyon',
     ],
-
-    // Custom theme, applied to `procyon` theme
-    customTheme: {
-      primary: '#fc055b',
-      secondary: '#219aaf',
-      accent: '#e8d03a',
-      neutral: '#2A2730',
-      'base-100': '#E3E3ED',
-      '--rounded-box': '3rem',
-      '--rounded-btn': '3rem',
-    },
   },
 
   // Optional Footer. Supports plain text or HTML.

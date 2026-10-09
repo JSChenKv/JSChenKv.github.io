@@ -16,7 +16,9 @@ export const INVALID_CONFIG_ERROR: CustomError = {
   ),
 };
 
-export const setTooManyRequestError = (resetTime: string): CustomError => {
+export const setTooManyRequestError = (
+  resetTime?: string | null,
+): CustomError => {
   return {
     status: 429,
     title: 'Too Many Requests!',
@@ -31,7 +33,7 @@ export const setTooManyRequestError = (resetTime: string): CustomError => {
         >
           rate limit
         </a>
-        ! Try again later{` ${resetTime}`}.
+        ! Try again later{resetTime ? ` ${resetTime}` : ''}.
       </p>
     ),
   };
@@ -50,6 +52,6 @@ export const INVALID_GITHUB_USERNAME_ERROR: CustomError = {
 
 export const GENERIC_ERROR: CustomError = {
   status: 500,
-  title: 'Ops!!',
+  title: 'Oops!!',
   subTitle: 'Something went wrong.',
 };
